@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e5ec;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.neumorphic {
+    border-radius: 12px;
+    background: #e0e5ec;
+    box-shadow: 7px 7px 15px #babecc, -7px -7px 15px #ffffff;
+}
+
+.navbar {
+    background-color: #e0e5ec;
+    box-shadow: 7px 7px 15px #00000074, -7px -7px 15px #00000074;
+    border-radius: 12px;
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    color: #333 !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #333 !important;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    background: #007bff;
+    color: #fff !important;
+    box-shadow: inset 4px 4px 6px #07113474, inset -4px -4px 6px #32090974;
+}
+
+header {
+    background-color: #e0e5ec;
+    color: #333;
+    box-shadow: inset 5px 5px 15px #00000074, inset -5px -5px 15px #00000074;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+header .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    box-shadow: 4px 4px 10px #00000074, -4px -4px 10px #00000074;
+    border-radius: 12px;
+}
+
+header .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 7px 7px 15px #babecc, -7px -7px 15px #ffffff;
+}
+
+.card-img-top {
+    border-radius: 12px 12px 0 0;
+}
+
+.card-body {
+    background-color: #e0e5ec;
+}
+
+.card-title {
+    color: #333;
+}
+
+.card-text {
+    color: #555;
+}
+
+.card .btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+    box-shadow: 4px 4px 10px #babecc, -4px -4px 10px #ffffff;
+    border-radius: 12px;
+}
+
+.card .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #0056b3;
+}
+
+.form-control, 
+.form-label, 
+.btn-primary {
+    border-radius: 12px;
+}
+
+.form-control {
+    background: #e0e5ec;
+    box-shadow: inset 3px 3px 6px #babecc, inset -3px -3px 6px #ffffff;
+    border: none;
+}
+
+.form-control:focus {
+    box-shadow: inset 3px 3px 6px #babecc, inset -3px -3px 6px #ffffff;
+    border: 1px solid #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    box-shadow: 7px 7px 15px #babecc, -7px -7px 15px #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+footer {
+    background-color: #e0e5ec;
+    box-shadow: inset 5px 5px 15px #babecc, inset -5px -5px 15px #ffffff;
+    color: #333;
+    border-radius: 12px;
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        box-shadow: none;
+    }
+    header, footer {
+        box-shadow: none;
+    }
+    .card, .form-control, .btn-primary {
+        box-shadow: 3px 3px 6px #babecc, -3px -3px 6px #ffffff;
+    }
+}
